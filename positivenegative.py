@@ -1,7 +1,7 @@
-num =float(input())
-if num > 0:
+var =float(input())
+if var > 0:
    print("Positive")
-elif num == 0:
+elif var == 0:
    print("Zero")
 else:
-   print("Negative")
+    print("Negative")

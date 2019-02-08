@@ -7,7 +7,7 @@ def main():
     rev=rev*10+dig
     m=m//10
  if(temp==rev):
-    print("Yes")
+    print("yes")
  else:
     print("no")
 

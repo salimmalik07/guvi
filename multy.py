@@ -1,6 +1,6 @@
 try:
- n=int(raw_input())
+ m=int(raw_input())
  for i in range(1,6):
-	print n*i
+	print m*i
 except:
 	print("invalid")

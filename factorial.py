@@ -1,3 +1,3 @@
 import math
-a=int(input())
-print(math.factorial(a))
+o=int(input())
+print(math.factorial(o))

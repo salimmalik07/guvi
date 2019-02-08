@@ -1,6 +1,7 @@
 try:
- m=int(raw_input())
+ v=int(raw_input())
+ 
  for i in range(1,6):
-	print m*i
+	print v*i,
 except:
-	print("invalid")
+	print "invalid"

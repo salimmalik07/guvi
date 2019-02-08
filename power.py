@@ -1,6 +1,6 @@
-n=int(input())
-m=int(input())
-
+m,n=raw_input().split()
+m=int(m)
+n=int(n)
 i=0
 ac=0
 while i < m:

@@ -1,12 +1,19 @@
 source=0
+destination=0
 print("enter the destination")
 destination=raw_input()
 if( destination.isalpha()):
-        print("invalid destination ") 
+  print("invalid destination ")
+elif not destination :
+  print("enter anything") 
+elif float(destination=='$'):
+  print("invalid symbol")
+
 
 elif float(destination)<=0 :
 	print("invalid destination")
-else:
+
+elif float(destination)>=0:
   total=source+float(destination)
   print("enter the choice")
   print("1.auto...2.mini...3.micro....4.premium")
@@ -28,4 +35,17 @@ else:
         print("the total fare =",fare)
   else :
 		    print("invalid choice")
-        
+elif not destination :
+  print("enter anything")
+elif float(destination=='$'):
+  print("invalid")
+else:
+  print("invalid")
+'''
+print("pay bill")
+
+print("------------------------------------------------")
+print("ur des is",destination)
+print("ur total cost is ",fare)
+print("-------------------------------------------------")
+'''      

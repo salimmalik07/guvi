@@ -13,7 +13,7 @@ int main(void)
     if(det>0)
     {
        r1=(-b+sqrt(det))/(2*a);
-       r1=(-b-sqrt(det))/(2*a);
+       r2=(-b-sqrt(det))/(2*a);
        printf("%f",r1);
     printf("%f",r2);
     }

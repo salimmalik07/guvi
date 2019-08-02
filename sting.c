@@ -26,16 +26,16 @@ int main()
      }
       for(i=1; i<=strlen(b); i++)
       {
-     if(b[i]!=='a'&&b[i]!=='e'&&b[i]!=='i'&&b[i]!=='o'&&b[i]!=='u'&&b[i]!=='A'&&b[i]!=='E'&&b[i]!=='I'&&b[i]!=='O'&&b[i]!=='U')
+     if(b[i]!='a'&&b[i]!='e'&&b[i]!='i'&&b[i]!='o'&&b[i]!='u'&&b[i]!='A'&&b[i]!='E'&&b[i]!='I'&&b[i]!='O'&&b[i]!='U')
      {
-         b[i]=#;
+         b[i]='#';
      }
      else
      {
          break;
      }
       }
-       for(i=1; i<=strlen(c); i++)
+       for(i=0; i<=strlen(c); i++)
        {
            if(c[i]>='a'&&c[i]<='z')
            c[i]=c[i]-32;
